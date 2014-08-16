@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: '0'
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.9, CPAN::Meta::Converter version 2.140640'
+generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.141520'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -21,9 +21,10 @@ requires:
   Carp: '0'
   Class::Method::Modifiers: '0'
   Sub::Quote: '0'
+  perl: '5.006'
 resources:
   IRC: irc://irc.perl.org/#moose
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=MooX-LazyRequire
   license: http://dev.perl.org/licenses/
   repository: https://github.com/haarg/MooX-LazyRequire.git
-version: '0.001000'
+version: '0.001001'
